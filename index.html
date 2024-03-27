@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ATOM List</title>
+    <link rel="stylesheet" href="Style/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>To-Do List</h1>
+      <input type="text" id="taskInput" placeholder="Add new task..." />
+      <button onclick="addTask()">Add</button>
+      <ul id="taskList">
+        <!-- Tasks will be added dynamically here -->
+      </ul>
+    </div>
+    <div id="confetti"></div>
+    <!-- Add this div for confetti -->
+    <script src="https://code.jquery.com/jquery-1.11.0.js"></script>
+    <!-- Include jQuery -->
+    <script src="./Scripts/script.js"></script>
+  </body>
+</html>
