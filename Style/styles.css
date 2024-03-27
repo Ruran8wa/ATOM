@@ -23,6 +23,7 @@ button {
   background: transparent;
   color: #888;
   padding: 5px 8px;
+  border-radius: 8px;
 }
 button:hover,
 button:active {
